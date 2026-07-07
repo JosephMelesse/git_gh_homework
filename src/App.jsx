@@ -1,10 +1,13 @@
+import "./App.css";
+import half_dome from "./assets/half_dome.jpg";
+
 function App() {
   return (
     <div className="container">
       <h1 className="title">Yosemite National Park</h1>
       <img
         className="scenery-img-styled"
-        src="./assets/half_dome.jpg"
+        src={half_dome}
         alt="A beautiful scenery"
       />
       <p className="description">
@@ -16,4 +19,3 @@ function App() {
 }
 
 export default App;
-
